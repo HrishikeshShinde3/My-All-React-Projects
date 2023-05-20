@@ -1,9 +1,11 @@
 .Navbar-Section{
     
-    
+    /* background-color: aquamarine; */
     display: flex;
     display: inline;
-    position: relative;
+    justify-content: center;
+    height: 100px;
+   
 }
 
 img{
@@ -15,11 +17,12 @@ img{
 .NavIcons{
      display: inline;
      display: flex;
+     justify-content: center;
      color: black;
      list-style: none;
      cursor: pointer;
      padding: 0px;
-     gap: 30px;
+     gap: 40px;
      z-index: 2;
      
      

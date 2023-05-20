@@ -1,0 +1,10 @@
+@keyframes animate {
+    to {
+      transform: translateX(100px);
+    }
+  }
+  
+  .RightContainer {
+    animation: animate 4s infinite ease alternate;
+  }
+  
