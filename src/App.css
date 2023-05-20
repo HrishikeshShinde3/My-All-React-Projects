@@ -1,0 +1,9 @@
+.Container{
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  overflow-y:auto;
+  scrollbar-width: none;
+  color: white;
+  background: url("https://cdn.pixabay.com/photo/2018/02/23/04/38/computer-3174729_1280.jpg") ;
+}

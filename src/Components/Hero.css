@@ -1,0 +1,7 @@
+.Hero-Section
+   {
+    height: 100vh;
+    scroll-snap-align:center;
+    display: flex;
+    justify-content: center;
+    }
