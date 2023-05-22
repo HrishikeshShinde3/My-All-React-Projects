@@ -1,5 +1,59 @@
-.Work-Section
+.Works-Section
    {
     height: 100vh;
     scroll-snap-align:center;
+    /* display: flex; */
+    /* flex-direction: column; */
+    justify-content: center;
+    
     }
+
+.Works-mainContainer{
+   
+    background-color:blueviolet; 
+   
+   margin: 20px;
+   height: 80vh;
+   justify-content: center;
+   display: flex;
+   justify-content: space-evenly;
+   padding: 10px;
+   
+   position:relative;
+   ;
+}
+.Works-LeftContainer{
+   position: relative;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(0, 255, 76);
+   color: black;
+   padding: 20px 20px;
+   height: 70vh;
+   width: 70vh;
+}
+
+
+
+.Works-RightContainer{
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(0, 255, 238);
+   padding: 20px 20px;
+   height: 70vh;
+   width: 70vh;
+  
+ 
+ 
+}
+
+
+   
+
+/* img{
+   display: block;
+   justify-content: center;
+   background-color: rgb(204, 13, 118);
+   height: 35vh;
+} */
+

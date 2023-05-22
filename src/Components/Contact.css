@@ -2,4 +2,133 @@
    {
     height: 100vh;
     scroll-snap-align:center;
+
+    justify-content: center;
+    
     }
+
+.Contact-mainContainer-contact{
+   
+   
+   
+   margin: 20px;
+   height: 80vh;
+   justify-content: center;
+   display: flex;
+   display: inline;
+   justify-content: space-evenly;
+   padding: 10px;
+   
+   position:relative;
+   ;
+}
+.Contact-Form{
+   
+   display: inline-block;
+   justify-content: center;
+   margin-left: 70vh;
+   color: black;
+   padding: 20px 20px;
+   height: 70vh;
+   width: 55vh;
+   position: relative;
+}
+.button{
+  cursor: pointer;
+   color: aliceblue;
+   background-color: black;
+   border-radius: 4px;
+   height: 30px;
+   width: 310px;
+   margin-top: 15px;
+   justify-content: center;
+   animation: slideInFromLeft 7s ease-in-out 2s forwards;
+}
+ .message {
+   height: 60px;
+    margin-top: 20px;
+   border-radius: 5px;
+   width: 301px; 
+   animation: slideInFromLeft 6s ease-in-out 2s forwards;
+   
+ } 
+ .Contact-Us{
+   
+   margin-top: 40px;
+    align-items: center;
+    margin-left: -3px;
+   display: block;
+   color: rgb(0, 0, 0);
+   background:none;
+  
+   
+  
+    height: 32px;
+   width: 305px;
+   animation: slideInFromLeft 3s ease-in-out 2s forwards;
+ }
+ @keyframes slideInFromLeft {
+   0% {
+     transform: translateX(-100%);
+     opacity: 0;
+   }
+   100% {
+     transform: translateX(0);
+     opacity: 1;
+   }
+ }
+ 
+ 
+
+.email{
+   border-radius: 3px;
+   margin-top: 20px;
+   height: 30px;
+   width: 300px;
+   animation: slideInFromLeft 5s ease-in-out 2s forwards;
+}
+.name{
+   border-radius: 3px;
+   margin-top: 5px ;
+   height: 30px;
+   width: 300px;
+   background-color:white ;
+   transition: none;
+   animation: slideInFromLeft 4s ease-in-out 2s forwards;
+}
+.footer {
+   background-color: #d1bb0f;
+   margin-top:-40px;
+   padding: 20px;
+   height: 120px;
+   text-align: center;
+
+ }
+ 
+ .footer-content {
+   display: flex;
+   margin-top: -20px;
+   flex-direction: column;
+   align-items: center;
+   color: black;
+ }
+ 
+ .footer p {
+   margin: 0;
+ }
+ a {
+   text-decoration: none;
+ }
+ 
+ .footer-links {
+   list-style-type: none;
+   padding: 0;
+   margin-top: -25px;
+   display: flex;
+   gap:20px;
+   cursor: pointer;
+ }
+ 
+ 
+ 
+ 

@@ -15,10 +15,10 @@ import Navbar from '../Navbar/Navbar'
         <div className='color-text'>
         <h1>We Think.We Make. </h1>
         <h1> We Solve.</h1>
-        <h3>-What we do as Frontend Developer</h3>
-        <h2>We enjoy creating delightful,human centered digital experiences & create effective front-end user interfaces.</h2>
+        <h3>-What I do as Frontend Web Developer</h3>
+        <h2>I enjoy creating delightful,human centered digital experiences & create effective front-end user interfaces.</h2>
         </div>
-        <button1 className="button1">Learn more</button1>
+        <h3 className="button1">Learn more</h3>
       </div>
       <div >
          <img className='RightContainer' src="https://files.codingninjas.in/438375-17407.webp" alt='logo' ></img>

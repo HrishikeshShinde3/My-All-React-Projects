@@ -45,12 +45,12 @@
    justify-content: center;
    border-radius: 50%;
    padding: 20px 20px;
-   height: 70vh;
-   width: 70vh;
+   height: 60vh;
+   width: 60vh;
    /*  animation for moving logo
  */
    
- animation: animate 2s infinite ease alternate;
+ animation: animate 1s infinite ease alternate;
  @keyframes animate{
    to{
       transform: translateY(300px);
@@ -59,10 +59,8 @@
 }
 
 .button1{
-   background-color: rgb(204, 40, 117);
-   height: 50px;
-   width: 100px;
-   border-radius: 2px;
+   color: rgb(238, 117, 25);
+   /* color: rgb(45, 217, 2, 1); */
    cursor: pointer;
    
    

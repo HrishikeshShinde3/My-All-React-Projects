@@ -21,7 +21,7 @@ img{
      color: black;
      list-style: none;
      cursor: pointer;
-     padding: 0px;
+     padding: 10px;
      gap: 40px;
      z-index: 2;
      
@@ -30,17 +30,18 @@ img{
 
 .search-bar{
     display: flex;
-    height: 30px;
+    height: 29px;
     color: black;
-    border-radius: 10%;
-    cursor: pointer;
+    
+    border-radius: 3px;
 }
-button{
+button1{
    
-    background-color: black;
+ background-color: black;
    cursor: pointer;
-   height: 30px;
-   width: 50px;
+   height: 28px;
+   width: 30px;
+   border-radius: 3px;
 }
 
 
