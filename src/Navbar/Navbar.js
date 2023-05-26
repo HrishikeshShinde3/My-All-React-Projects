@@ -1,6 +1,6 @@
 import React from 'react'
 import './Navbar.css'
-import { FaHome, FaSearch } from 'react-icons/fa';
+import {  FaSearch } from 'react-icons/fa';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome } from '@fortawesome/free-solid-svg-icons';
 import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';

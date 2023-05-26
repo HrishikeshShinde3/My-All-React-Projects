@@ -1,6 +1,8 @@
 import React, { useRef,useState } from 'react';
 import './Contact.css'
-import { faHome } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+import { faHome,faInfoCircle } from '@fortawesome/free-solid-svg-icons';
 
 import emailjs from '@emailjs/browser';
 
@@ -35,7 +37,7 @@ import emailjs from '@emailjs/browser';
            <input className='email' placeholder='Enter Your Email-ID' name='email'></input>
            <input className='message'  placeholder='Write Your message here' name='message'></input>
             <button type='submit' className='button'>Submit</button>
-            {success && "Your message has been sent. We'll get back to you soon :) "}
+            {success && "Your message has been sent Successfully!!!   I will get back to you soon :)"}
         </form>
 
         
@@ -49,8 +51,10 @@ import emailjs from '@emailjs/browser';
           </div>
 
           <div className="footer-links">
-            <h4> Home</h4>
-              <h4>About</h4>
+              <li className='home'><FontAwesomeIcon icon={faHome} /></li>
+
+              <li className='about'><FontAwesomeIcon icon={faInfoCircle} /></li>
+
             <h4>Contact</h4>
             <h4>Information</h4>
           </div>
