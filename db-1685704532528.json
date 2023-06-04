@@ -2,7 +2,7 @@
   "posts": [
     {
       "id": 1,
-      "name": "Wilma Wegener",
+      "name": "Wilmar Wegener",
       "user_name": "wwegener0",
       "paragraph": "Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",
       "image": "https://picsum.photos/1000/500?q=410"
@@ -257,6 +257,27 @@
       "name": "maan",
       "user_name": "maan@gmail.com",
       "paragraph": "sumit",
+      "image": "https://picsum.photos/1000/500?q=410"
+    },
+    {
+      "id": 38,
+      "name": "abc",
+      "user_name": "abc@gmail.com",
+      "paragraph": "ayush",
+      "image": "https://picsum.photos/1000/500?q=410"
+    },
+    {
+      "id": 39,
+      "name": "abc",
+      "user_name": "abc@gmail.com",
+      "paragraph": "transformer 7.............................",
+      "image": "https://picsum.photos/1000/500?q=410"
+    },
+    {
+      "id": 40,
+      "name": "abc",
+      "user_name": "abc@gmail.com",
+      "paragraph": "dfbgdsbgbsbgd",
       "image": "https://picsum.photos/1000/500?q=410"
     }
   ],

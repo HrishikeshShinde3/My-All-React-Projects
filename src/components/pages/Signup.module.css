@@ -103,4 +103,5 @@
 
   .btn {
     background-color: rgb(46, 168, 221);
+    cursor: pointer;
   }

@@ -5,9 +5,9 @@ import { FiShare } from "react-icons/fi";
 
 
 function Icons() {
-    const [heartCount, setHeartCount] = useState(0);
-    const [repostCount, setRepostCount] = useState(0);
-    const [commentCount, setCommentCount] = useState(237);
+    const [heartCount, setHeartCount] = useState(177);
+    const [repostCount, setRepostCount] = useState(33);
+    const [commentCount, setCommentCount] = useState(63);
     function onHeartClick() {
         setHeartCount(heartCount + 1)
     }
